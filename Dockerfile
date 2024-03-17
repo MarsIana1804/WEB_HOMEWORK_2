@@ -1,9 +1,9 @@
 FROM python:3.9-slim
 WORKDIR /usr/src/app
-COPY Personal_assistant_pkg /usr/src/app
-#RUN pip install ./Personal_assistant_pkg
+COPY Personal_assistant_pkg /usr/src/app/Personal_assistant_pkg
+RUN pip install ./Personal_assistant_pkg
 
-CMD ["python", "Personal_assistant_pkg/menu_01.py"]
+CMD ["python", "Personal_assistant_pkg/Personal_assistant_pkg/menu_01.py"]
 
 
 
