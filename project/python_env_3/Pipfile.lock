@@ -1,0 +1,24 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "44d415204859dd0b1336200e86d5cf5bd04b55a4b3f8ede57cc49a9c557cd2fb"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.11"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "personal-assistant-pkg": {
+            "path": "/Users/marinavakulenko/Documents/Github/project/package"
+        }
+    },
+    "develop": {}
+}
